@@ -9,6 +9,7 @@ pygame.init()
 screenW = 1024
 screenH = 768
 screen = pygame.display.set_mode((screenW, screenH),pygame.FULLSCREEN)
+grid = pygame.image.load("grid.png")
 
 fps = 30
 
@@ -89,6 +90,7 @@ while running:
     clock = pygame.time.Clock()
     clock.tick(fps)
     screen.fill(randColor)
+    screen.blit(grid, (0, 0))
     pygame.display.flip()
 
 pygame.quit()
