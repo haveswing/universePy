@@ -61,22 +61,26 @@ def visual():
 
     switchgraph = True
 
+    resize = 10
+
+    print("\nfor graphics:\n")
+
     if switchgraph:
-        v1 = 0
+        v1 = 1E11 / resize
         print(v1)
-        v2 = 0
+        v2 = random.uniform(0.1, 0.3) / resize
         print(v2)
-        v3 = 0
+        v3 = random.randrange(1, 5) / resize
         print(v3)
-        v4 = 0
+        v4 = random.uniform(0.1, 0.5) / resize
         print(v4)
-        v5 = 0
+        v5 = random.uniform(0.01, 0.2) / resize
         print(v5)
-        v6 = 0
+        v6 = random.uniform(0.01, 0.2) / resize
         print(v6)
-        v7 = 0
+        v7 = daysearth() / resize
         print(v7)
-        vF = 0
+        vF = v1 * v2 * v3 * v4 * v5 * v6 + v7
         print(vF)
 
 visual()
