@@ -57,24 +57,26 @@ print(math.floor(N))
 
 # build graphical simulation steps:
 
-switchgraph = True
+def visual():
 
-if switchgraph:
-    v1 = 0
-    print(v1)
-    v2 = 0
-    print(v2)
-    v3 = 0
-    print(v3)
-    v4 = 0
-    print(v4)
-    v5 = 0
-    print(v5)
-    v6 = 0
-    print(v6)
-    v7 = 0
-    print(v7)
-    vF = 0
-    print(vF)
+    switchgraph = True
 
+    if switchgraph:
+        v1 = 0
+        print(v1)
+        v2 = 0
+        print(v2)
+        v3 = 0
+        print(v3)
+        v4 = 0
+        print(v4)
+        v5 = 0
+        print(v5)
+        v6 = 0
+        print(v6)
+        v7 = 0
+        print(v7)
+        vF = 0
+        print(vF)
 
+visual()
